@@ -22,7 +22,7 @@
                 <p class="name" style="text-align: center;">
                   Fidel Tito
                 </p>
-                <p>I'm a Bachelor in Mechatronics Engineering at Universidad Nacional de Ingenieria in Lima. Currently, I work as a Machine Learning Engineer at Intercorp, where I specialize in deploying models into production </a>.
+                <p>I'm a Bachelor in Mechatronics Engineering at Universidad Nacional de Ingenieria in Lima. Currently, I work as a Machine Learning Engineer at Qubika, where I specialize in deploying models into production, and implementing LLM-based applications </a>.
                 </p>
                 <!-- <p>
                   At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, and <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>. I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>. I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
@@ -46,7 +46,7 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Projects</h2>
+                <h2><b>Research Projects</b></h2>
                 <p>
                   I'm interested in the areas of Software, Deep Learning, Computer Vision, Reinforcement Learning, ML Operations, and Image Processing. Additionally, I have experienced working in projects related to pose estimation, image segmentation, deep reinforcement learning, image alignment, control, and signal processing .
                 </p>
@@ -60,19 +60,20 @@
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
         <div class="two" id='difsurvey_image'></div>
-          <img src='images/Fidel/MRI.gif' width="160">
+          <img src='images/Fidel/RVQ-VAE.png' width="160">
         </div>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-          <span class="papertitle">Medical Image Alignment with Deep Learning
+          <span class="papertitle">Generative Interpolation of Sign Language Poses using RVQ-VAE
     </span>
         </a>
         <br>
-        Worked in Neuromatch Academy,
-        <div> 2021</div>
-              <a href="">Google Colab</a>
+        <b> F. Tito,  </b> G. Bejarano,  Proceedings of the LatinX in AI Workshop at the Neural Information Processing Systems Conference (NeurIPS) 2024, Vancouver, Canada.
+        <br>
+        <div> 2024</div>
+              <a href="https://openreview.net/pdf?id=leI9WFbHT2">Paper</a>
         <p>
-        The research aimed to apply transformations over a MRI dataset with visual deformations. A deep learning model based on VoxelMorph was successfully implemented to reduce variance between subjects by applying non-rigid transformations on 3D images.
+        The research presents a Residual Vector Quantized Variational Autoencoder (RVQVAE) model for interpolating 2D keypoint motion in videos.
         </p>
       </td>
     </tr>         
@@ -117,8 +118,8 @@
         <br>
           <b>F. Tito, </b> J. Romero, J. Gonzales, E. Cajaleon (2021)
         <br>
-            <a href="https://res.cloudinary.com/unicloud010/image/upload/v1702359850/Understanding-404-Errors-02_vvs7ab.jpg">Code |</a> 
-            <a href="https://res.cloudinary.com/unicloud010/image/upload/v1702359850/Understanding-404-Errors-02_vvs7ab.jpg">Video</a>
+            <!-- <a href="https://res.cloudinary.com/unicloud010/image/upload/v1702359850/Understanding-404-Errors-02_vvs7ab.jpg">Code |</a> 
+            <a href="https://res.cloudinary.com/unicloud010/image/upload/v1702359850/Understanding-404-Errors-02_vvs7ab.jpg">Video</a> -->
         <p>
           The project sought to implement a mobile robot based on perception and control modules. Our perception module was implemented using UNet for image segmentation and DQN for pathfinding optimization, enabling a mobile robot to navigate indoors using a Jetson Nano.
         </p>
@@ -199,17 +200,73 @@
           </tbody></table>
 
 
-
+          <br>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <h2>Developer Projects</h2>
+              <h2><b>Developer and ML Engineering Projects</b></h2>
              
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+        <tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+            <div class="two" id='difsurvey_image'></div>
+              <img src='images/Fidel/DocumentChat.png' width="160">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+              <span class="papertitle">Document Chat App - Chat with your data bot
+        </span>
+            </a>
+            <div> 2024</div>
+                  <a href="https://github.com/omarftt/DocumentChat">Code |</a>
+            <p>
+              Document Chat App is an application that allows you to ask questions related to AWS Documentation (or whatever markdown files you upload). It works with RAG and OpenAI models.
+            </p>
+          </td>
+        </tr> 
+
+        <tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+            <div class="two" id='difsurvey_image'></div>
+              <img src='images/Fidel/FastAPI.png' width="160">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+              <span class="papertitle"> FastAPI app with Postgres connection
+        </span>
+            </a>
+            <div> 2024</div>
+                  <a href="https://github.com/omarftt/API-FastAPI-Postgres">Code |</a>
+            <p>
+              Web application built with FastAPI and PostgreSQL. This repository serves as a starting point for developing high-performance APIs with seamless database integration using Docker.
+            </p>
+          </td>
+        </tr> 
+
+      <tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+          <div class="two" id='difsurvey_image'></div>
+            <img src='images/Fidel/ML_training.png' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <span class="papertitle">Deployment of ML model using Vertex AI
+      </span>
+          </a>
+          <div> 2024</div>
+                <a href="https://github.com/omarftt/q-training-gcp-deploy">Code |</a>
+          <p>
+          A ML classification model was trained. The model was deployed using Vertex AI Pipelines in GCP.
+          </p>
+        </td>
+      </tr> 
 
       <tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
@@ -238,7 +295,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
-            <h2>Miscelanea</h2>
+            <h2><b>Miscelanea</b></h2>
            
           </td>
         </tr>
